@@ -1,0 +1,9 @@
+/var/log/elasticsearch/*.log {
+        su elasticsearch elasticsearch
+        daily
+        rotate 7
+        copytruncate
+        compress
+        missingok
+        notifempty
+}

@@ -1,0 +1,5 @@
+## Name: Elasticsearch
+## Description: ElasticSearch is a distributed, RESTful, free/open source search server based on Apache Lucene.
+
+# space separated list of allowed ports
+TCP="9200 9300"
